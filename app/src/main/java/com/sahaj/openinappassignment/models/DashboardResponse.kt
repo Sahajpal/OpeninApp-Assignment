@@ -1,5 +1,6 @@
 package com.sahaj.openinappassignment.models
 
+import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 data class DashboardResponse(
@@ -23,5 +24,5 @@ data class Data(
     @SerializedName("recent_links") var recentLinks: ArrayList<Links> = arrayListOf(),
     @SerializedName("top_links") var topLinks: ArrayList<Links> = arrayListOf(),
     @SerializedName("favourite_links") var favouriteLinks: ArrayList<String> = arrayListOf(),
-    //@SerializedName("overall_url_chart") var overallUrlChart: OverallUrlChart? = OverallUrlChart()
+    @SerializedName("overall_url_chart") @Expose var overallUrlChart: Map<String, Float> = HashMap()
 )
