@@ -9,19 +9,21 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun Courses() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Text(text = "Courses Screen to be implemented...")
     }
 }
+
 @Composable
 fun Campaigns() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Text(text = "Campaign Screen to be implemented...")
     }
 }
+
 @Composable
 fun Profile() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Text(text = "Profile Screen to be implemented...")
     }
 }
